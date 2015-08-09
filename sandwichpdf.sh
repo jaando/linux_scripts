@@ -34,9 +34,13 @@ do
   	then
   		echo "NOT SEARCHABLE: $FILE"
   		#take action on each file. $f store current file name
-  		pdfsandwich "$f" -o "$OCRDIR/$f" 
+		FILENAME="${f##*/}"
+#		echo "FILENAME: $FILENAME"
+#		DIRNAME=$(dirname "${f}")
+#		echo "DIRNAME: $DIRNAME"
+  		pdfsandwich "$f" -o "$OCRDIR/$FILENAME"
   		echo "Moving $f file..."
-  		mv -f "$OCRDIR/$f" "$f"
+  		mv -f "$OCRDIR/$FILENAME" "$f"
   		echo "Setting permissions on file $f..."
   		chown $USER:$GROUP "$f"
 	else
