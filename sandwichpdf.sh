@@ -1,6 +1,8 @@
 #!/bin/bash
 
 SOURCEDIR="$1"
+USER="$2"
+GROUP="$3"
 FILELIST="${SOURCEDIR}"/*.pdf
 OCRDIR="$1/ocr"
 mkdir "$OCRDIR"
@@ -36,7 +38,7 @@ do
   		echo "Moving $f file..."
   		mv -f "$OCRDIR/$f" "$f"
   		echo "Setting permissions on file $f..."
-  		chown web1:client0 "$f"
+  		chown $USER:$GROUP "$f"
 	else
       		echo "SEARCHABLE: $FILE"
 	fi
