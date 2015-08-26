@@ -1,0 +1,5 @@
+/home/dominik/jaando_pdf/jaando_pdf/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/dominik/jaando_pdf/jaando_pdf/bin/Debug/jaando_pdf.exe.mdb
+/home/dominik/jaando_pdf/jaando_pdf/bin/Debug/jaando_pdf.exe
+/home/dominik/jaando_pdf/jaando_pdf/obj/x86/Debug/jaando_pdf.exe
+/home/dominik/jaando_pdf/jaando_pdf/obj/x86/Debug/jaando_pdf.exe.mdb
