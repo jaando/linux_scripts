@@ -3,6 +3,7 @@
 SOURCEDIR="$1"
 USER="$2"
 GROUP="$3"
+TARGETDIR="$4"
 FILELIST="${SOURCEDIR}"/*.pdf
 OCRDIR="$1/ocr"
 mkdir "$OCRDIR"
