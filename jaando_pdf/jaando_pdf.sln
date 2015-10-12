@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jaando_pdf", "jaando_pdf\jaando_pdf.csproj", "{C08A66AD-418E-440B-B813-FB9B22D0703B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C08A66AD-418E-440B-B813-FB9B22D0703B}.Debug|x86.ActiveCfg = Debug|x86
+		{C08A66AD-418E-440B-B813-FB9B22D0703B}.Debug|x86.Build.0 = Debug|x86
+		{C08A66AD-418E-440B-B813-FB9B22D0703B}.Release|x86.ActiveCfg = Release|x86
+		{C08A66AD-418E-440B-B813-FB9B22D0703B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
